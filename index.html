@@ -40,19 +40,16 @@
         <p class="hero-tag" data-bind="hero.tagline">GOOD IDEAS<br>TAKE TIME.</p>
       </div>
 
-      <p class="script" data-bind="hero.script">Same Person<br>Different<br>Dimension.</p>
-
-      <figure class="hero-character" aria-label="FILM character">
-        <div class="walker" id="walker" title="FILM">
-          <span class="walker-shadow" aria-hidden="true"></span>
-          <div class="walker-flip">
-            <div class="walker-body">
-              <img class="w-leg w-leg-l" src="images/character.webp" alt="" aria-hidden="true" data-bind-src="hero.character" />
-              <img class="w-leg w-leg-r" src="images/character.webp" alt="" aria-hidden="true" data-bind-src="hero.character" />
-              <img class="w-upper" src="images/character.webp" alt="FILM character" data-bind-src="hero.character" fetchpriority="high" />
-            </div>
+      <figure class="hero-character" id="headRig">
+        <div class="rig" role="img" aria-label="FILM character">
+          <div class="rig-head" aria-hidden="true">
+            <img class="hf on" data-f="c-m" src="images/head/c-m.webp" alt="" fetchpriority="high" />
           </div>
+          <img class="rig-body" src="images/head/body.webp" alt="" aria-hidden="true" fetchpriority="high" />
         </div>
+        <!-- CMS image: if hero.character is changed in Pages CMS, this static image is shown instead of the head-tracking rig -->
+        <img class="rig-custom" src="images/character.webp" alt="FILM character" data-bind-src="hero.character" />
+        <figcaption class="script" data-bind="hero.script">Same Person<br>Different<br>Dimension.</figcaption>
       </figure>
 
       <aside class="hero-side">
@@ -139,6 +136,6 @@
   </div>
 
   <script src="js/main.js"></script>
-  <script src="js/walk.js"></script>
+  <script src="js/head.js"></script>
 </body>
 </html>
