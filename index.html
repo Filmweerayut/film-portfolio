@@ -40,9 +40,19 @@
         <p class="hero-tag" data-bind="hero.tagline">GOOD IDEAS<br>TAKE TIME.</p>
       </div>
 
-      <figure class="hero-character">
-        <img src="images/character.webp" alt="FILM character" data-bind-src="hero.character" fetchpriority="high" />
-        <figcaption class="script" data-bind="hero.script">Same Person<br>Different<br>Dimension.</figcaption>
+      <p class="script" data-bind="hero.script">Same Person<br>Different<br>Dimension.</p>
+
+      <figure class="hero-character" aria-label="FILM character">
+        <div class="walker" id="walker" title="FILM">
+          <span class="walker-shadow" aria-hidden="true"></span>
+          <div class="walker-flip">
+            <div class="walker-body">
+              <img class="w-leg w-leg-l" src="images/character.webp" alt="" aria-hidden="true" data-bind-src="hero.character" />
+              <img class="w-leg w-leg-r" src="images/character.webp" alt="" aria-hidden="true" data-bind-src="hero.character" />
+              <img class="w-upper" src="images/character.webp" alt="FILM character" data-bind-src="hero.character" fetchpriority="high" />
+            </div>
+          </div>
+        </div>
       </figure>
 
       <aside class="hero-side">
@@ -129,5 +139,6 @@
   </div>
 
   <script src="js/main.js"></script>
+  <script src="js/walk.js"></script>
 </body>
 </html>
