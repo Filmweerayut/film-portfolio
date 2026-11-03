@@ -1,0 +1,37 @@
+{
+  "brand": "FILM",
+  "hero": {
+    "title_line1": "GRAPHIC",
+    "title_line2": "DESIGNER",
+    "subtitle": "AI CREATIVE",
+    "tagline": "GOOD IDEAS\nTAKE TIME.",
+    "script": "Same Person\nDifferent\nDimension.",
+    "character": "/images/character.webp",
+    "number": "01",
+    "keywords": ["DESIGN", "AI", "CREATIVE", "IDEAS", "LIFESTYLE"],
+    "location": "BANGKOK\nTHAILAND\nUTC+7"
+  },
+  "about": {
+    "heading": "ABOUT",
+    "title": "Same person,\ndifferent dimension.",
+    "body": "[ข้อความตัวอย่าง] แนะนำตัวสั้น ๆ ที่นี่ — เล่าว่าคุณเป็นใคร ทำงานออกแบบแบบไหน และใช้ AI ในงานสร้างสรรค์อย่างไร\n\n[ข้อความตัวอย่าง] ใส่ประสบการณ์ การศึกษา หรือแบรนด์ที่เคยร่วมงาน (แก้ไขได้ที่หน้า /admin)",
+    "skills": ["Graphic Design", "Branding", "AI Generation", "Visual Artwork", "Social Content"],
+    "tools": ["Photoshop", "Illustrator", "Figma", "Midjourney", "Stable Diffusion"]
+  },
+  "contact": {
+    "heading": "LET'S CREATE\nSOMETHING.",
+    "text": "สนใจร่วมงาน หรือสอบถามรายละเอียด ติดต่อได้ที่ (ข้อมูลตัวอย่าง)",
+    "email": "your-email@example.com",
+    "socials": [
+      { "label": "Instagram", "url": "#" },
+      { "label": "Behance", "url": "#" },
+      { "label": "Facebook", "url": "#" },
+      { "label": "LINE", "url": "#" }
+    ]
+  },
+  "footer": {
+    "left": "FILM\nGRAPHIC DESIGNER × AI CREATIVE",
+    "center": "VISUAL IDEAS\nFOR A BRIGHTER TOMORROW.",
+    "right": "BASED IN BANGKOK, THAILAND.\n© 2026"
+  }
+}

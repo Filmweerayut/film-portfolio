@@ -1,0 +1,96 @@
+# Pages CMS config — แก้ไขเว็บที่ https://app.pagescms.org (ล็อกอินด้วย GitHub)
+# ⚠️ ชื่อฟิลด์ต้องตรงกับไฟล์ content/*.json เพราะหน้าเว็บอ่านจากไฟล์เหล่านี้
+media:
+  input: uploads
+  output: /uploads
+  categories: [image]
+
+content:
+  - name: works
+    label: "ผลงาน (Works)"
+    type: file
+    path: content/works.json
+    format: json
+    fields:
+      - name: items
+        label: "ผลงาน (อันบนสุดแสดงก่อน)"
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{index}. {fields.title} — {fields.category}"
+        fields:
+          - name: title
+            label: "ชื่อผลงาน"
+            type: string
+            required: true
+          - name: category
+            label: "หมวดหมู่"
+            type: select
+            options:
+              values: ["Visual Artwork", "AI Generation", "Branding", "Poster", "Social Media", "Other"]
+          - name: year
+            label: "ปี"
+            type: string
+          - name: image
+            label: "รูปผลงาน"
+            type: image
+            description: "แนะนำ JPG/WebP กว้าง ~1600px ไม่เกิน 2MB, อัตราส่วนแนวตั้ง 4:5"
+          - name: description
+            label: "คำอธิบาย"
+            type: text
+
+  - name: site
+    label: "ข้อความบนเว็บ (Site text)"
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: brand
+        label: "โลโก้ (ตัวอักษรมุมซ้ายบน)"
+        type: string
+      - name: hero
+        label: "ส่วนหัว (Hero)"
+        type: object
+        fields:
+          - { name: title_line1, label: "หัวข้อบรรทัด 1", type: string }
+          - { name: title_line2, label: "หัวข้อบรรทัด 2", type: string }
+          - { name: subtitle, label: "บรรทัดรอง (ต่อจาก ×)", type: string }
+          - { name: tagline, label: "ข้อความเล็ก (ขึ้นบรรทัดใหม่ได้)", type: text }
+          - { name: script, label: "ข้อความลายมือ", type: text }
+          - { name: character, label: "รูปคาแรกเตอร์ (PNG/WebP พื้นหลังโปร่งใส)", type: image }
+          - { name: number, label: "ตัวเลขด้านขวา", type: string }
+          - { name: keywords, label: "คีย์เวิร์ดด้านขวา", type: string, list: true }
+          - { name: location, label: "ที่ตั้ง (ขึ้นบรรทัดใหม่ได้)", type: text }
+      - name: about
+        label: "เกี่ยวกับ (About)"
+        type: object
+        fields:
+          - { name: heading, label: "ป้ายหัวข้อ", type: string }
+          - { name: title, label: "หัวข้อใหญ่", type: text }
+          - { name: body, label: "ข้อความแนะนำตัว (เว้นบรรทัดว่างเพื่อขึ้นย่อหน้าใหม่)", type: text }
+          - { name: skills, label: "ทักษะ", type: string, list: true }
+          - { name: tools, label: "เครื่องมือ", type: string, list: true }
+      - name: contact
+        label: "ติดต่อ (Contact)"
+        type: object
+        fields:
+          - { name: heading, label: "หัวข้อใหญ่", type: text }
+          - { name: text, label: "ข้อความ", type: text }
+          - { name: email, label: "อีเมล", type: string }
+          - name: socials
+            label: "โซเชียลมีเดีย"
+            type: object
+            list:
+              collapsible:
+                summary: "{fields.label}"
+            fields:
+              - { name: label, label: "ชื่อ (เช่น Instagram)", type: string }
+              - { name: url, label: "ลิงก์ (https://...)", type: string }
+      - name: footer
+        label: "ท้ายเว็บ (Footer)"
+        type: object
+        fields:
+          - { name: left, label: "ซ้าย", type: text }
+          - { name: center, label: "กลาง", type: text }
+          - { name: right, label: "ขวา", type: text }

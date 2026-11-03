@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FILM — Graphic Designer × AI Creative</title>
+  <meta name="description" content="Portfolio of FILM — Graphic Designer × AI Creative. Based in Bangkok, Thailand." />
+  <meta property="og:title" content="FILM — Graphic Designer × AI Creative" />
+  <meta property="og:image" content="images/og.jpg" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0a'/%3E%3Ctext x='16' y='24' font-family='Impact,sans-serif' font-size='20' fill='white' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300;400;500;600&family=Caveat:wght@500&family=IBM+Plex+Sans+Thai:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" id="top">
+    <a href="#top" class="brand" data-bind="brand">FILM</a>
+    <button class="menu-btn" aria-label="เมนู" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1 class="hero-title">
+          <span class="t1" data-bind="hero.title_line1">GRAPHIC</span>
+          <span class="t2" data-bind="hero.title_line2">DESIGNER</span>
+        </h1>
+        <p class="hero-sub"><span class="x">×</span> <span data-bind="hero.subtitle">AI CREATIVE</span></p>
+        <p class="hero-tag" data-bind="hero.tagline">GOOD IDEAS<br>TAKE TIME.</p>
+      </div>
+
+      <figure class="hero-character">
+        <img src="images/character.webp" alt="FILM character" data-bind-src="hero.character" fetchpriority="high" />
+        <figcaption class="script" data-bind="hero.script">Same Person<br>Different<br>Dimension.</figcaption>
+      </figure>
+
+      <aside class="hero-side">
+        <span class="side-num" data-bind="hero.number">01</span>
+        <ul class="side-list" data-bind-list="hero.keywords">
+          <li>DESIGN</li><li>AI</li><li>CREATIVE</li><li>IDEAS</li><li>LIFESTYLE</li>
+        </ul>
+        <span class="side-rule"></span>
+        <div class="orbit" aria-hidden="true"><span></span></div>
+        <p class="side-loc" data-bind-lines="hero.location"><span>BANGKOK</span><span>THAILAND</span><span>UTC+7</span></p>
+        <div class="barcode" aria-hidden="true"></div>
+      </aside>
+
+      <a href="#work" class="scroll-ind"><span class="arrow">↓</span><span>SCROLL TO EXPLORE</span></a>
+    </div>
+  </section>
+
+  <!-- 02 SELECTED WORK -->
+  <section class="work" id="work">
+    <div class="work-head">
+      <span class="big-num" aria-hidden="true">02</span>
+      <h2 class="work-title">SELECTED<br>WORK</h2>
+      <ul class="work-cats" id="cats" role="tablist" aria-label="หมวดหมู่ผลงาน"></ul>
+      <button class="view-all" id="viewAll">VIEW ALL</button>
+    </div>
+    <div class="grid" id="grid"><p class="grid-msg">กำลังโหลดผลงาน…</p></div>
+  </section>
+
+  <!-- 03 ABOUT -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-left">
+        <span class="sec-num">03</span>
+        <p class="sec-label" data-bind="about.heading">ABOUT</p>
+        <h2 class="about-title" data-bind="about.title">Same person,<br>different dimension.</h2>
+      </div>
+      <div class="about-right">
+        <div class="about-body" data-bind-paras="about.body"></div>
+        <div class="chips-block">
+          <p class="mini">SKILLS</p>
+          <ul class="chips" data-bind-list="about.skills"></ul>
+        </div>
+        <div class="chips-block">
+          <p class="mini">TOOLS</p>
+          <ul class="chips" data-bind-list="about.tools"></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 CONTACT -->
+  <section class="contact" id="contact">
+    <span class="sec-num">04</span>
+    <p class="sec-label">CONTACT</p>
+    <h2 class="contact-title" data-bind="contact.heading">LET'S CREATE<br>SOMETHING.</h2>
+    <p class="contact-text" data-bind="contact.text"></p>
+    <a class="contact-mail" id="mail" href="mailto:your-email@example.com">your-email@example.com</a>
+    <ul class="socials" id="socials"></ul>
+  </section>
+
+  <footer class="footer">
+    <p data-bind="footer.left">FILM<br>GRAPHIC DESIGNER × AI CREATIVE</p>
+    <p class="fc" data-bind="footer.center">VISUAL IDEAS<br>FOR A BRIGHTER TOMORROW.</p>
+    <p class="fr" data-bind="footer.right">BASED IN BANGKOK, THAILAND.<br>© 2026</p>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lb-title" hidden>
+    <div class="lb-backdrop" data-close></div>
+    <div class="lb-panel">
+      <button class="lb-close" data-close aria-label="ปิด">✕</button>
+      <div class="lb-media"><img id="lb-img" alt="" /></div>
+      <div class="lb-info">
+        <p class="lb-meta" id="lb-meta"></p>
+        <h3 id="lb-title"></h3>
+        <p id="lb-desc"></p>
+        <div class="lb-nav">
+          <button id="lb-prev">← PREV</button>
+          <span id="lb-count"></span>
+          <button id="lb-next">NEXT →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

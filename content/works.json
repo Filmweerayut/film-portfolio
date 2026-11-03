@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "title": "Work 01 (ตัวอย่าง)",
+      "category": "Visual Artwork",
+      "year": "2026",
+      "image": "/uploads/placeholder-01.svg",
+      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+    },
+    {
+      "title": "Work 02 (ตัวอย่าง)",
+      "category": "AI Generation",
+      "year": "2026",
+      "image": "/uploads/placeholder-02.svg",
+      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+    },
+    {
+      "title": "Work 03 (ตัวอย่าง)",
+      "category": "Branding",
+      "year": "2026",
+      "image": "/uploads/placeholder-03.svg",
+      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+    },
+    {
+      "title": "Work 04 (ตัวอย่าง)",
+      "category": "Visual Artwork",
+      "year": "2026",
+      "image": "/uploads/placeholder-04.svg",
+      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+    },
+    {
+      "title": "Work 05 (ตัวอย่าง)",
+      "category": "AI Generation",
+      "year": "2026",
+      "image": "/uploads/placeholder-05.svg",
+      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+    },
+    {
+      "title": "Work 06 (ตัวอย่าง)",
+      "category": "Branding",
+      "year": "2026",
+      "image": "/uploads/placeholder-06.svg",
+      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+    },
+    {
+      "title": "Work 07 (ตัวอย่าง)",
+      "category": "Visual Artwork",
+      "year": "2026",
+      "image": "/uploads/placeholder-07.svg",
+      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+    },
+    {
+      "title": "Work 08 (ตัวอย่าง)",
+      "category": "AI Generation",
+      "year": "2026",
+      "image": "/uploads/placeholder-08.svg",
+      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+    }
+  ]
+}
