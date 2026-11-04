@@ -1,60 +1,151 @@
 {
   "items": [
     {
-      "title": "Work 01 (ตัวอย่าง)",
-      "category": "Visual Artwork",
-      "year": "2026",
-      "image": "/uploads/placeholder-01.svg",
-      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+      "title": "Poster 01",
+      "category": "Poster",
+      "year": "",
+      "image": "/uploads/works/abstract-art-1.jpg",
+      "description": ""
     },
     {
-      "title": "Work 02 (ตัวอย่าง)",
-      "category": "AI Generation",
-      "year": "2026",
-      "image": "/uploads/placeholder-02.svg",
-      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+      "title": "Poster 02",
+      "category": "Poster",
+      "year": "",
+      "image": "/uploads/works/abstract-art-2.jpg",
+      "description": ""
     },
     {
-      "title": "Work 03 (ตัวอย่าง)",
-      "category": "Branding",
-      "year": "2026",
-      "image": "/uploads/placeholder-03.svg",
-      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+      "title": "Poster 03",
+      "category": "Poster",
+      "year": "",
+      "image": "/uploads/works/abstract-art-3.jpg",
+      "description": ""
     },
     {
-      "title": "Work 04 (ตัวอย่าง)",
-      "category": "Visual Artwork",
-      "year": "2026",
-      "image": "/uploads/placeholder-04.svg",
-      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+      "title": "Illustrator 01",
+      "category": "Illustrator",
+      "year": "",
+      "image": "/uploads/works/art-gallery-website-1.jpg",
+      "description": ""
     },
     {
-      "title": "Work 05 (ตัวอย่าง)",
-      "category": "AI Generation",
-      "year": "2026",
-      "image": "/uploads/placeholder-05.svg",
-      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+      "title": "Illustrator 02",
+      "category": "Illustrator",
+      "year": "",
+      "image": "/uploads/works/art-gallery-website-2.jpg",
+      "description": ""
     },
     {
-      "title": "Work 06 (ตัวอย่าง)",
-      "category": "Branding",
-      "year": "2026",
-      "image": "/uploads/placeholder-06.svg",
-      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+      "title": "Illustrator 03",
+      "category": "Illustrator",
+      "year": "",
+      "image": "/uploads/works/art-gallery-website-3.jpg",
+      "description": ""
     },
     {
-      "title": "Work 07 (ตัวอย่าง)",
-      "category": "Visual Artwork",
-      "year": "2026",
-      "image": "/uploads/placeholder-07.svg",
-      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+      "title": "Packaging 01",
+      "category": "Packaging",
+      "year": "",
+      "image": "/uploads/works/capitol-brand-1.jpg",
+      "description": ""
     },
     {
-      "title": "Work 08 (ตัวอย่าง)",
-      "category": "AI Generation",
-      "year": "2026",
-      "image": "/uploads/placeholder-08.svg",
-      "description": "[ข้อความตัวอย่าง] คำอธิบายผลงาน — โจทย์ แนวคิด เครื่องมือที่ใช้ และผลลัพธ์ แก้ไขหรือลบได้ที่หน้า /admin"
+      "title": "Packaging 02",
+      "category": "Packaging",
+      "year": "",
+      "image": "/uploads/works/capitol-brand-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Packaging 03",
+      "category": "Packaging",
+      "year": "",
+      "image": "/uploads/works/capitol-brand-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "T-shirt 01",
+      "category": "T-shirt",
+      "year": "",
+      "image": "/uploads/works/music-book-1.jpg",
+      "description": ""
+    },
+    {
+      "title": "T-shirt 02",
+      "category": "T-shirt",
+      "year": "",
+      "image": "/uploads/works/music-book-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "T-shirt 03",
+      "category": "T-shirt",
+      "year": "",
+      "image": "/uploads/works/music-book-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "Typedesign 01",
+      "category": "Typedesign",
+      "year": "",
+      "image": "/uploads/works/power-of-nature-1.jpg",
+      "description": ""
+    },
+    {
+      "title": "Typedesign 02",
+      "category": "Typedesign",
+      "year": "",
+      "image": "/uploads/works/power-of-nature-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Typedesign 03",
+      "category": "Typedesign",
+      "year": "",
+      "image": "/uploads/works/power-of-nature-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "Artwork 01",
+      "category": "Artwork",
+      "year": "",
+      "image": "/uploads/works/stationery-1.jpg",
+      "description": ""
+    },
+    {
+      "title": "Artwork 02",
+      "category": "Artwork",
+      "year": "",
+      "image": "/uploads/works/stationery-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Artwork 03",
+      "category": "Artwork",
+      "year": "",
+      "image": "/uploads/works/stationery-3.jpg",
+      "description": ""
+    },
+    {
+      "title": "Logo design 01",
+      "category": "Logo design",
+      "year": "",
+      "image": "/uploads/works/tennis-lessons-website-1.jpg",
+      "description": ""
+    },
+    {
+      "title": "Logo design 02",
+      "category": "Logo design",
+      "year": "",
+      "image": "/uploads/works/tennis-lessons-website-2.jpg",
+      "description": ""
+    },
+    {
+      "title": "Logo design 03",
+      "category": "Logo design",
+      "year": "",
+      "image": "/uploads/works/tennis-lessons-website-3.jpg",
+      "description": ""
     }
   ]
 }
